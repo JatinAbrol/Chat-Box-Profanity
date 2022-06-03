@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chatterbox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".moderator.dashboard.DashActivity"></activity>
+        <activity android:name=".moderator.Moderator" />
+        <activity android:name=".helper.imageViewerActivity" />
+        <activity android:name=".peer_to_peer_chat.ChatSingleActivity" />
+        <activity android:name=".login_register.PWresetActivity" />
+        <activity android:name=".settings.ProfileActivity" />
+        <activity
+            android:name=".find_friends.FindFriendsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".group_chat.GroupChatActivity" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".login_register.RegisterActivity" />
+        <activity android:name=".login_register.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

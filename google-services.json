@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1009574183054",
+    "firebase_url": "https://profanitychatbox-default-rtdb.firebaseio.com",
+    "project_id": "profanitychatbox",
+    "storage_bucket": "profanitychatbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009574183054:android:dfc4afcd566dd552ea89df",
+        "android_client_info": {
+          "package_name": "com.example.chatterbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009574183054-rb8i08la46ltk3jn5pu91jnq1430h21g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnu_AkYqMxW6ebWQRcjAWWOvGo8VPlHkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009574183054-rb8i08la46ltk3jn5pu91jnq1430h21g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
